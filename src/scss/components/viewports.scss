@@ -1,0 +1,29 @@
+$mobile-width-only: 767px;
+$tablet-width: 768px;
+$desktop-width: 1280px;
+
+img {
+    max-width: 100%;
+    height: auto;
+    object-fit: contain;
+  }
+  
+  a {
+    text-decoration: none;
+  }
+  
+  *,
+  *::before,
+  *::after {
+    box-sizing: border-box;
+  }
+  .visully-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1;
+    padding: 0;
+    border: 0;
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+  }
